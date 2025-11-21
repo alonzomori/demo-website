@@ -1,14 +1,14 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Header from './components/Header'
+import './index.css'
 
 function App() {
   return (
-      <p class>
-        Click on the Vite and React logos to learn more
-      </p>
 
+
+      <main className='bg-[#f5f5dc] h-[100vh] w-[100vw] flex justify-center'>
+      <Header />
+      </main>
   )
 }
 
