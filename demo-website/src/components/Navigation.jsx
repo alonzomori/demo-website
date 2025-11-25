@@ -1,18 +1,20 @@
 import { useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
+import Header from '../components/Header'
 
 function Navigation() {
     const [open, setOpen] = useState(false);
 
     return (
-        <nav className="fixed top-12 right-0 w-full z-50">
+        <nav className="mx-auto py-[30px] bg-[#C0C0C0] fixed top-0 w-full z-[102]">
+            <Header />
             <div className="flex justify-end pr-6 md:pr-50">
                 {/* Desktop */}
             <ul className="hidden md:flex space-x-6 md:space-x-20">
-                <li className="cursor-pointer"><strong>About</strong></li>
-                <li className="cursor-pointer"><strong>Services</strong></li>
-                <li className="cursor-pointer"><strong>Contact</strong></li>
+                <li className="cursor-pointer text-white"><strong>About</strong></li>
+                <li className="cursor-pointer text-white"><strong>Services</strong></li>
+                <li className="cursor-pointer text-white"><strong>Contact</strong></li>
             </ul>
 
                 {/* Mobile Hamburger Icon */}
