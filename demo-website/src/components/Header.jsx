@@ -1,6 +1,5 @@
 import DueTimeProductions from '../assets/images/dtplogo.png'
 
-
 function Header() {
     return (
         <div className='fixed top-0 left-0 m-4'>

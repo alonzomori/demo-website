@@ -10,9 +10,9 @@ function Navigation() {
             <div className="flex justify-end pr-6 md:pr-50">
                 {/* Desktop */}
             <ul className="hidden md:flex space-x-6 md:space-x-20">
-                <li className="cursor-pointer">About</li>
-                <li className="cursor-pointer">Services</li>
-                <li className="cursor-pointer">Contact</li>
+                <li className="cursor-pointer"><strong>About</strong></li>
+                <li className="cursor-pointer"><strong>Services</strong></li>
+                <li className="cursor-pointer"><strong>Contact</strong></li>
             </ul>
 
                 {/* Mobile Hamburger Icon */}
