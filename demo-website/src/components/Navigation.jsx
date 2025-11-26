@@ -7,7 +7,7 @@ function Navigation() {
     const [open, setOpen] = useState(false);
 
     return (
-        <nav className="mx-auto py-[30px] bg-[#C0C0C0] fixed top-0 w-full z-[102]">
+        <nav className="mx-auto py-[30px] bg-[#C0C0C0] fixed top-0 w-145 md:w-300 z-[102]">
             <Header />
             <div className="flex justify-end pr-6 md:pr-50">
                 {/* Desktop */}
@@ -18,7 +18,7 @@ function Navigation() {
             </ul>
 
                 {/* Mobile Hamburger Icon */}
-                <button className="md:hidden" onClick={() => setOpen(!open)}>
+                <button className="md:hidden pr-5" onClick={() => setOpen(!open)}>
                 <FontAwesomeIcon icon={open ? faTimes : faBars} size="2x" />
                 </button>
             </div>
