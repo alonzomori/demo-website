@@ -2,4 +2,5 @@
 
 body {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
+  @apply bg-[#C0C0C0] min-h-screen;
 }
