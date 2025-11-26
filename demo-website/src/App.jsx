@@ -4,7 +4,8 @@ import './index.css'
 import Navigation from './components/Navigation'
 import Banner from './components/Banner'
 import About from './components/About'
-import Servies from './components/Services'
+import Services from './components/Services'
+import Contact from './components/Contact'
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       <Navigation />
       <Banner />
       <About />
-      <Servies />
+      <Services />
+      <Contact />
       </main>
   )
 }
