@@ -7,7 +7,7 @@ function Navigation() {
     const [open, setOpen] = useState(false);
 
     return (
-        <nav className="mx-auto py-[30px] bg-[#C0C0C0] fixed top-0 w-145 md:w-300 z-[102]">
+        <nav className="mx-auto py-[30px] bg-[#C0C0C0] fixed top-0 w-145 md:w-300 lg:w-390 z-[102]">
             <Header />
             <div className="flex justify-end pr-6 md:pr-50">
                 {/* Desktop */}
