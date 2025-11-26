@@ -1,11 +1,13 @@
 import Recording from "../assets/images/Recording.webp"
 import Mixing from "../assets/images/Mixing.jpeg"
 import Mastering from "../assets/images/Mastering.jpg"
+import { Element } from "react-scroll";
+
 function Services() {
     return (
-        <section className="w-full ml-10 flex flex-col items-center justify-center text-center px-6 pb-0">
-        <h1 className="text-4xl font-bold text-white pb-2 mb-28 mt-10 w-full border-b-3">Services</h1>
-
+        <Element name="services">
+        <section className="w-full ml-10 flex flex-col items-center justify-center text-center px-6 pb-0 md:pl-50">
+        <h1 className="text-4xl font-bold text-white pb-2 mb-28 mt-10 w-screen border-b-3 pr-">Services</h1>
         <div className="flex flex-col space-y-30 md:flex-row md:space-x-25 lg:space-x-25 lg:pl-10 items-center">
 
         <div className="flex flex-col items-center">
@@ -25,6 +27,7 @@ function Services() {
 
         </div>
         </section>
+        </Element>
     )
 }
 
