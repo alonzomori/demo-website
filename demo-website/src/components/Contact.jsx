@@ -31,7 +31,7 @@ function Contact() {
         </div>
         <button
           type="submit"
-          className="w-full py-3 bg-gray-600 hover:bg-gray-400 rounded-lg font-semibold text-white transition-all cursor-pointer">Send Message</button>
+          className="w-full py-3 bg-gray-900 hover:bg-gray-500 rounded-lg font-semibold text-white transition-all cursor-pointer">Send Message</button>
         </form>
         </section>
         </Element>
