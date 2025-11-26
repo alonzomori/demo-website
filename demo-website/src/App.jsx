@@ -4,6 +4,7 @@ import './index.css'
 import Navigation from './components/Navigation'
 import Banner from './components/Banner'
 import About from './components/About'
+import Servies from './components/Services'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Navigation />
       <Banner />
       <About />
+      <Servies />
       </main>
   )
 }
