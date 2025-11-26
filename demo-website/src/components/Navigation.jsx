@@ -2,6 +2,7 @@ import { useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 import Header from '../components/Header'
+import { Link } from "react-scroll";
 
 function Navigation() {
     const [open, setOpen] = useState(false);
@@ -12,9 +13,9 @@ function Navigation() {
             <div className="flex justify-end pr-6 md:pr-50">
                 {/* Desktop */}
             <ul className="hidden md:flex space-x-6 md:space-x-20">
-                <li className="cursor-pointer text-white"><strong>About</strong></li>
-                <li className="cursor-pointer text-white"><strong>Services</strong></li>
-                <li className="cursor-pointer text-white"><strong>Contact</strong></li>
+                <Link to="about" smooth={true} duration={600} className="cursor-pointer text-white hover:text-gray-400"><strong>About</strong></Link>
+                <Link to="services" smooth={true} duration={600} className="cursor-pointer text-white hover:text-gray-400"><strong>Services</strong></Link>
+                <Link to="contact" smooth={true} duration={600} className="cursor-pointer text-white hover:text-gray-400"><strong>Contact</strong></Link>
             </ul>
 
                 {/* Mobile Hamburger Icon */}

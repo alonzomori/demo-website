@@ -1,7 +1,10 @@
+import { Element } from "react-scroll";
+
 function Contact() {
     return (
-         <section className="w-full ml-10 flex flex-col items-center justify-center text-center px-6 pb-0">
-        <h1 className="text-4xl pl-3 pb-2 font-bold text-white mb-28 mt-[-30px] w-full border-b-3">Contact Us</h1>
+         <Element name="contact">
+         <section className="w-full ml-10 flex flex-col items-center justify-center text-center px-6 pb-0 md:pl-50">
+        <h1 className="text-4xl pl-3 pb-2 font-bold text-white mb-28 mt-[-30px] w-screen border-b-3">Contact Us</h1>
         <form className="w-full max-w-md flex flex-col bg-gray-200 p-8 rounded-xl shadow-lg space-y-5 mt-[-70px] pt-5">
         <div>
           <label className="text-md">Name</label>
@@ -31,6 +34,7 @@ function Contact() {
           className="w-full py-3 bg-gray-600 hover:bg-gray-400 rounded-lg font-semibold text-white transition-all cursor-pointer">Send Message</button>
         </form>
         </section>
+        </Element>
     )
 }
 
