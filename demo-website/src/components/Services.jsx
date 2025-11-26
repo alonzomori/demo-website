@@ -10,17 +10,17 @@ function Services() {
 
         <div className="flex flex-col items-center">
         <h2 className="w-[90px] mt-[-100px] pt-5 leading-[30px] text-[20px] text-white">Recording</h2>
-        <img className="w-80 lg:w-[350px]" src={Recording} alt="Recording Image" />
+        <img className="w-80 lg:w-[350px] rounded" src={Recording} alt="Recording Image" />
         </div>
 
         <div className="flex flex-col items-center">
         <h2 className="w-[50px] mt-[-100px] pt-5 leading-[30px] text-[20px] text-white lg:pr-10">Mixing</h2>
-        <img className="w-80 lg:w-[350px]" src={Mixing} alt="Mixing Image" />
+        <img className="w-80 lg:w-[350px] rounded" src={Mixing} alt="Mixing Image" />
         </div>
 
         <div className="flex flex-col items-center">
         <h2 className="w-[90px] mt-[-100px] pt-5 leading-[30px] text-[20px] text-white">Mastering</h2>
-        <img className="w-90 pb-30 lg:w-[420px]" src={Mastering} alt="Mastering Image" />
+        <img className="w-90 pb-30 lg:w-[420px] rounded" src={Mastering} alt="Mastering Image" />
         </div>
 
         </div>
